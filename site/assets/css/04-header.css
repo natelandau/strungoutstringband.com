@@ -1,0 +1,112 @@
+
+.header {
+    align-items: center;
+    background: #fdf3e7 !important;
+    border-bottom: 1px solid #37393a;
+    border-top: 1px solid #37393a;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    left: 0;
+    margin: 0 auto;
+    max-width: 1520px;
+    padding: 0 30px;
+    position: absolute;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    -ms-flex-align: center;
+    -ms-flex-wrap: wrap;
+    -webkit-box-align: center;
+}
+
+.header .branding {
+    width: 830px;
+    margin: 0 auto;
+}
+
+.header .branding h2.logo-subtitle {
+    color: #3b3738;
+    font-weight: 400;
+    letter-spacing: -.02em;
+    text-transform: none;
+    font-variant: small-caps;
+    font-size: 0.85rem;
+    line-height: 29px;
+    line-height: 1.9124rem;
+    font-variant: small-caps;
+    font-family: QuicksandBold;
+}
+
+.header .branding h2.logo-subtitle.sub-top {
+    margin: 0 0 5px;
+}
+
+.header .branding h2.logo-subtitle.sub-bottom {
+    margin: 4px 0 5px 0;
+    float: left;
+}
+
+.header .branding .site-title,
+.header .branding .site-title a {
+    color: #3b3738 !important;
+    border: 0;
+    padding: 0;
+    float: none;
+    letter-spacing: -2px;
+    font-weight: 700;
+    font-family: Megalopolis, 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 19px;
+    line-height: 1.9416rem;
+    font-size: 55px;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+@media (max-width :915px) {
+
+    .header .branding .site-title,
+    .header .branding .site-title a {
+        line-height: 15px;
+        line-height: 1.5rem;
+        font-size: 30px;
+        font-size: 3rem;
+    }
+
+    .header .branding h2.logo-subtitle.sub-bottom {
+        margin: 4px 0 5px 0;
+        float: left;
+    }
+}
+
+@media (max-width :703px) {
+    .header .branding {
+        width: 100%
+    }
+
+    .header .branding .site-title,
+    .header .branding .site-title a {
+        line-height: 1.7rem;
+        font-size: 2.2rem;
+    }
+
+    .header .branding h2.logo-subtitle {
+        letter-spacing: -.08em;
+        font-size: 0.9rem;
+        line-height: 0.8rem;
+    }
+
+    .header .branding h2.logo-subtitle.sub-top {
+        margin: 5px 0 0 0;
+    }
+
+    .header .branding h2.logo-subtitle.sub-bottom {
+        margin: 4px 0 5px 0;
+        float: left;
+    }
+}

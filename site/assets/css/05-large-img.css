@@ -1,0 +1,39 @@
+.image-container {
+  clear: both;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  min-height: calc(100vh - 1px);
+  z-index: 1;
+  margin-bottom: 50px
+}
+
+/* .image-container {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  max-width: 1640px;
+  z-index: 9;
+} */
+
+.image-container:before {
+    /* background-image: url("https://strungoutstringband.com/wp-content/uploads/2021/04/cropped-JalopyTheater-scaled-1.jpg"); */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0);
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    /* left: 0; */
+    /* top: 0; */
+    width: 100%;
+}

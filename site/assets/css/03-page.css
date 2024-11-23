@@ -1,0 +1,31 @@
+
+body {
+    font-family: QuicksandBook, Vollkorn, Georgia, serif;
+    background: #fdf3e7;
+    color: #333;
+    text-rendering: Auto;
+    font-size: 14px;
+    font-size: 1.5rem;
+    line-height: 26px;
+    line-height: 2.4rem;
+    margin: 0;
+    display: block;
+    word-wrap: break-word;
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.pricing-section .amount {
+    clear: both;
+    font-weight: 700;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,19 @@
+footer {
+    background-color: #000000;
+    color: #999999;
+    font-size: 0.875rem;
+    display: block;
+    clear:both;
+    border-top: 2px solid #1d1d1d;
+    padding: 21px 30px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: QuicksandBold, 'Helvetica Neue', Helvetica, sans-serif;
+    opacity: 1;
+    transition: all .7s ease-in-out;
+}

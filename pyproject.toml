@@ -1,0 +1,10 @@
+[project]
+    dependencies    = [
+    "commitizen>=3.31.0",
+    "pre-commit>=4.0.1",
+]
+    description     = "The Strung Out String Band Website"
+    name            = "strungoutstringband.com"
+    readme          = "README.md"
+    requires-python = ">=3.11"
+    version         = "0.1.0"
