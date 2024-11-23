@@ -8,8 +8,9 @@
     <script type="text/javascript" src="assets/js/jquery-3.7.1.min.js" id="jquery-js"></script>
     <link rel='stylesheet' id='nate-style-css' href='assets/css/sosb.css' type='text/css' media='all' />
     <script type="text/javascript" src="assets/js/custom.js" id="custom-js"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
+    <title>Strung Out String Band</title>
+    <meta name="description"
+        content="The Strung Out String Band is based in New York City and plays Appalachian old time music." />
 </head>
 
 <body>
@@ -27,8 +28,7 @@
     <div class="content">
         <h1 class="entry-title">THE STRUNG OUT STRING BAND</h1>
         <p>
-            The Strung Out String Band is based in New York City and plays energetic dance music from several traditions
-            and epochs.
+            The Strung Out String Band is based in New York City and plays energetic Appalachian old-time music.
         </p>
         <p>
             As dedicated interpreters of the "Old Time Southern" music, we aim to blast audiences into a frenzied
@@ -166,24 +166,21 @@
 
         <p>For information about availability please fill out the form below.</p>
 
-
         <form id="my-form" action="https://formspree.io/f/mrgnrvlg" method="POST">
-            <p>
-                <label>Your Email Address:</label>
-                <input type="email" name="email" />
-                <br>
-                <label>Message:</label>
-                <textarea name="message" rows="5"></textarea>
-                <!-- <div class="g-recaptcha" data-sitekey="6LehJasaAAAAAJ907f4bucr2p1gVemDo_1vC4PVS"></div> -->
-                <button id="my-form-button">Submit</button>
-            </p>
+            <label>Email:</label>
+            <input type="email" name="email" />
+            <label>Message:</label>
+            <textarea rows="5" name="message"></textarea>
+            <button id="my-form-button">Submit</button>
             <p id="my-form-status"></p>
         </form>
+
 
     </div> <!-- .content -->
     <footer>
         &copy; 2024 <a href="https://strungoutstringband.com">The Strung Out String Band</a>
     </footer>
+
     <script>
         var form = document.getElementById("my-form");
 
@@ -216,6 +213,7 @@
         }
         form.addEventListener("submit", handleSubmit)
     </script>
+
 </body>
 
 </html>
